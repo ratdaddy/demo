@@ -7,6 +7,6 @@ require 'rake'
 #Demo1::Application.load_tasks
 
 task :spec do
-	`whoami`
-	`rvm info`
+	system 'whoami'
+	system 'rvm info'
 end
