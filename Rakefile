@@ -4,4 +4,9 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-Demo1::Application.load_tasks
+#Demo1::Application.load_tasks
+
+task :spec do
+	`whoami`
+	`rvm info`
+end
