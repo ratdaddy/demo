@@ -7,6 +7,7 @@ require 'rake'
 #Demo1::Application.load_tasks
 
 task :spec do
+	system 'printenv'
 	system 'whoami'
 	system 'rvm info'
 end
